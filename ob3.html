@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+        var grades = new Object();
+        grades['daebeom'] = 10;
+        grades['minjun'] = 6;
+        grades['jeonghun'] = 80;
+
+        // 반복을 통해 가져오는 법
+        var grades = {'daebeom': 10, 'minjun': 6, 'jeonghun': 80};
+        for(key in grades) {
+            document.write("key : "+key+" value : "+grades[key]+"<br />");
+        }
+
+
+
+    </script>
+  </body>
+</html>

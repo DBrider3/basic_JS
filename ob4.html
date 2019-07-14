@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+        var grades = new Object();
+        var grades = {
+          'list': {'daebeom': 10, 'minjun': 6, 'jeonghun': 80},
+          'show' : function(){
+            alert('Hello World');
+            for(var name in this.list){
+                document.write(name+':'+this.list[name]+"<br />");
+            }
+          }
+        };
+        grades.show();
+
+
+
+
+    </script>
+  </body>
+</html>
